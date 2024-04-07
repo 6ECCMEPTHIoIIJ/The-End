@@ -4,8 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment=".gitignore change">
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +72,33 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2elpj2iNi1bwL8QiYkzsA8xmuoR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\shamr\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\shamr\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" />
@@ -114,6 +147,7 @@
       <updated>1712489155580</updated>
       <workItem from="1712489160958" duration="419000" />
       <workItem from="1712489655945" duration="2567000" />
+      <workItem from="1712495997548" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
