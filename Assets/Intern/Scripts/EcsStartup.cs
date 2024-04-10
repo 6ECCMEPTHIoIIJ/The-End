@@ -1,6 +1,5 @@
 using AB_Utility.FromSceneToEntityConverter;
 using Client.Systems;
-using JetBrains.Annotations;
 using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
 using UnityEngine;
@@ -12,22 +11,38 @@ namespace Client
         private EcsWorld _world;
         private IEcsSystems _updateSystems;
         private IEcsSystems _fixedUpdateSystems;
+        private IEcsSystems _drawGizmosSystems;
 
         private void Start()
         {
             _world = new EcsWorld();
-            _updateSystems = _world.AddSystems();
-            _fixedUpdateSystems = _world.AddSystems();
+            _updateSystems = new EcsSystems(_world);
+            _fixedUpdateSystems = new EcsSystems(_world);
+            _drawGizmosSystems = new EcsSystems(_world);
+
+            _updateSystems.ConvertScene().AddSystemsDebugInfo()
+                .Inject()
+                .Init();
+            _fixedUpdateSystems
+                .Inject()
+                .Init();
+            _drawGizmosSystems
+                .Add(new GroundDetectVisualizeSystem())
+                .Inject()
+                .Init();
         }
 
         private void Update() => UpdateSystems(_updateSystems);
 
         private void FixedUpdate() => UpdateSystems(_fixedUpdateSystems);
+        
+        private void OnDrawGizmos() => UpdateSystems(_drawGizmosSystems);
 
         private void OnDestroy()
         {
             DestroySystems(ref _updateSystems);
             DestroySystems(ref _fixedUpdateSystems);
+            DestroySystems(ref _drawGizmosSystems);
             DestroyWorld(ref _world);
         }
 

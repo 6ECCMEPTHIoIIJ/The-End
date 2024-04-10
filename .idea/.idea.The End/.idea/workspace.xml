@@ -5,36 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsMovementInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsMovementInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsPlayerMovementInputReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsPlayerMovementInputReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsRigidBody.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsRigidBody.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsTransform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectVisualizeSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectVisualizeSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +74,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "6ECCMEPTHIoIIJ"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/6ECCMEPTHIoIIJ/The-End.git",
+    "accountId": "44c3bd3f-4d36-48f3-b404-51bab851578a"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/BaseConverter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/ComponentConverter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.leopotam.ecslite@984856664a/src/systems.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/EntityView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/WorldView.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -79,26 +108,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\shamr\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\shamr\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\shamr\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" />
@@ -148,6 +178,9 @@
       <workItem from="1712489160958" duration="419000" />
       <workItem from="1712489655945" duration="2567000" />
       <workItem from="1712495997548" duration="4500000" />
+      <workItem from="1712694980715" duration="2063000" />
+      <workItem from="1712697073198" duration="1000" />
+      <workItem from="1712757941905" duration="7882000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -173,13 +206,30 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -189,6 +239,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value=".gitignore change" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore change" />
+    <MESSAGE value="WalkingMovement components" />
+    <option name="LAST_COMMIT_MESSAGE" value="WalkingMovement components" />
   </component>
 </project>
