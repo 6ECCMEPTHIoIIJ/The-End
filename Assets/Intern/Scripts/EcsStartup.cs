@@ -24,6 +24,7 @@ namespace Client
                 .Inject()
                 .Init();
             _fixedUpdateSystems
+                .Add(new GroundDetectSystem())
                 .Inject()
                 .Init();
             _drawGizmosSystems

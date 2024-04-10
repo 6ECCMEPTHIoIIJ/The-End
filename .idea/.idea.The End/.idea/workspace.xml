@@ -4,49 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsMovementInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsMovementInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsPlayerMovementInputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsPlayerMovementInputReader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsRigidBody.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsRigidBody.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsTransform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsTransform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectVisualizeSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectVisualizeSystem.cs.meta" afterDir="false" />
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Ground Detecting System">
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/IsExternalInit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/IsExternalInit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGameObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGameObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GravityComponentConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/GroundDetectingComponentConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementComponentConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Converters/MovementInputComponentConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GravityComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/GroundDetectingComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MovementInputComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/MovementSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/Converters/GroundWalkingTagConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags/GroundWalkingTag.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectVisualizeSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectVisualizeSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Tags.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,28 +38,31 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="backend" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "6ECCMEPTHIoIIJ"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;6ECCMEPTHIoIIJ&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/6ECCMEPTHIoIIJ/The-End.git",
-    "accountId": "44c3bd3f-4d36-48f3-b404-51bab851578a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/6ECCMEPTHIoIIJ/The-End.git&quot;,
+    &quot;accountId&quot;: &quot;44c3bd3f-4d36-48f3-b404-51bab851578a&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/BaseConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/ComponentConverter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/EcsConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.leopotam.ecslite@984856664a/src/components.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.leopotam.ecslite@984856664a/src/systems.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/EntityView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/WorldView.cs" root0="SKIP_HIGHLIGHTING" />
@@ -110,9 +82,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "backend",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -156,10 +129,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25484">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="25484" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -240,6 +213,26 @@
     <MESSAGE value="First commit" />
     <MESSAGE value=".gitignore change" />
     <MESSAGE value="WalkingMovement components" />
-    <option name="LAST_COMMIT_MESSAGE" value="WalkingMovement components" />
+    <MESSAGE value="Ground Detecting System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ground Detecting System" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs</url>
+          <line>22</line>
+          <properties documentPath="D:\Projects\GameProjects\Unity\The End\Assets\Intern\Scripts\EcsStartup.cs" containingFunctionPresentation="Method 'Start'">
+            <startOffsets>
+              <option value="648" />
+            </startOffsets>
+            <endOffsets>
+              <option value="750" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

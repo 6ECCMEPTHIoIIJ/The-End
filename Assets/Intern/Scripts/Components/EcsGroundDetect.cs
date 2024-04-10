@@ -26,21 +26,12 @@ namespace Client.Components
             public float Radius => _radius;
             public LayerMask GroundLayer => _groundLayer;
             public float MaxSlopeAngle => _maxSlopeAngle;
-
-            public void Deconstruct(out Transform origin, out float radius, out LayerMask groundLayer,
-                out float maxSlopeAngle)
-            {
-                origin = _origin;
-                radius = _radius;
-                groundLayer = _groundLayer;
-                maxSlopeAngle = _maxSlopeAngle;
-            }
-
-            public struct DetectedPoint
-            {
-                public Vector3 Point { get; set; }
-                public Vector3 Normal { get; set; }
-            }
         }
+    }
+    
+    public struct GroundDetectedPointComponent
+    {
+        public Vector3 Point { get; set; }
+        public Vector3 Normal { get; set; }
     }
 }
