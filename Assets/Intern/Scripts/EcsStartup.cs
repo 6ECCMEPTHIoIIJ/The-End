@@ -28,7 +28,7 @@ namespace Client
                 .Inject()
                 .Init();
             _drawGizmosSystems
-                .Add(new GroundDetectVisualizeSystem())
+                .Add(new GroundDetectSystem.Visualizer())
                 .Inject()
                 .Init();
         }

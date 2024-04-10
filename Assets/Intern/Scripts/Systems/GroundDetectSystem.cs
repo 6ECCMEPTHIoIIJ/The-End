@@ -55,27 +55,35 @@ namespace Client.Systems
                 }
             }
         }
-    }
 
-    public class GroundDetectVisualizeSystem : IEcsRunSystem
-    {
-        private readonly EcsPoolInject<GroundDetectedPointComponent> _groundDetectedPointPoolInject = default;
-        private readonly EcsPoolInject<EcsGroundDetect.Component> _groundDetectPoolInject = default;
-        private readonly EcsFilterInject<Inc<EcsGroundDetect.Component>> _groundDetectFilterInject = default;
-
-        private EcsPool<GroundDetectedPointComponent> GroundDetectedPointPool =>
-            _groundDetectedPointPoolInject.Value;
-
-        private EcsPool<EcsGroundDetect.Component> GroundDetectPool => _groundDetectPoolInject.Value;
-        private EcsFilter GroundDetectFilter => _groundDetectFilterInject.Value;
-
-        public void Run(IEcsSystems systems)
+        public class Visualizer : IEcsRunSystem
         {
-            foreach (var e in GroundDetectFilter)
+            private readonly EcsPoolInject<GroundDetectedPointComponent> _groundDetectedPointPoolInject = default;
+            private readonly EcsPoolInject<EcsGroundDetect.Component> _groundDetectPoolInject = default;
+            private readonly EcsFilterInject<Inc<EcsGroundDetect.Component>> _groundDetectFilterInject = default;
+
+            private EcsPool<GroundDetectedPointComponent> GroundDetectedPointPool =>
+                _groundDetectedPointPoolInject.Value;
+
+            private EcsPool<EcsGroundDetect.Component> GroundDetectPool => _groundDetectPoolInject.Value;
+            private EcsFilter GroundDetectFilter => _groundDetectFilterInject.Value;
+
+            public void Run(IEcsSystems systems)
             {
-                ref var groundDetect = ref GroundDetectPool.Get(e);
-                Gizmos.color = GroundDetectedPointPool.Has(e) ? Color.cyan : Color.gray;
-                Gizmos.DrawWireSphere(groundDetect.Origin.position, groundDetect.Radius);
+                foreach (var e in GroundDetectFilter)
+                {
+                    ref var groundDetect = ref GroundDetectPool.Get(e);
+                    var groundDetected = GroundDetectedPointPool.Has(e);
+                    if (groundDetected)
+                    {
+                        ref var groundDetectedPoint = ref GroundDetectedPointPool.Get(e);
+                        Gizmos.color = Color.magenta;
+                        Gizmos.DrawRay(groundDetectedPoint.Point, groundDetectedPoint.Normal);
+                    }
+
+                    Gizmos.color = groundDetected ? Color.cyan : Color.gray;
+                    Gizmos.DrawWireSphere(groundDetect.Origin.position, groundDetect.Radius);
+                }
             }
         }
     }
