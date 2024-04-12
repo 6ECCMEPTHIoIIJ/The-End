@@ -46,7 +46,20 @@ namespace Client.Systems
         {
             public void Run(IEcsSystems systems)
             {
-                throw new System.NotImplementedException();
+                var world = systems.GetWorld();
+                var movableFilter = world
+                    .Filter<TransformComponent>()
+                    .Inc<RigidBodyComponent>()
+                    .End();
+                var rigidBodies = world.GetPool<RigidBodyComponent>();
+                var transforms = world.GetPool<TransformComponent>();
+                foreach (var e in movableFilter)
+                {
+                    ref var rigidBody = ref rigidBodies.Get(e);
+                    ref var transform = ref transforms.Get(e);
+                    Gizmos.color = Color.blue;
+                    Gizmos.DrawRay(transform.Position, rigidBody.Velocity);
+                }
             }
         }
     }

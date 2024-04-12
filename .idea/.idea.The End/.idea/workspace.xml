@@ -4,88 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Editor/ReadOnlyDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Editor/ReadOnlyDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MonoConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/MonoConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsGroundDetect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsRigidBody.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsTransform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/EcsMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/EcsMovementInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/EcsPlayerMovementInputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/EcsPlayerMovementInputReader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/NewPlayerMovementInputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/OldPlayerMovementInputReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/OldPlayerMovementInputReader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/PlayerMovementInputReaderBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/PlayerMovementInputReaderBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsGroundWalking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsGroundWalking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsMainCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsMainCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/GroundWalkingSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/GroundWalkingSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/RigidBodyMovementSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/RigidBodyMovementSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Utils/ReadOnlyAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Intern/Utils/ReadOnlyAttribute.cs.meta" afterDir="false" />
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="code recompilation result">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Banana Man.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Banana Man.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Demo Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Demo Scene/Banana Man Demo Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Demo Scene/Banana Man Demo Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Demo Scene/Gray Skybox.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Demo Scene/Gray Skybox.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Materials/Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Materials/Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Materials/Joints.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Materials/Joints.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Textures/Banana Man Albedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Banana Yellow Games/Characters/Banana Man/Textures/Banana Man Albedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Metallica_-_Enter_Sandman_47954409.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extern/Trash/Metallica_-_Enter_Sandman_47954409.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/IsExternalInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Utils/IsExternalInit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/IsExternalInit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Utils/IsExternalInit.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Readme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGameObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsGroundDetect.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsGroundDetect.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsMovementInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsMovementInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/EcsMovementInput.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsPlayerMovementInputReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsPlayerMovementInputReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/NewPlayerMovementInputReader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsRigidBody.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsRigidBody.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsRigidBody.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsTransform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/EcsTransform.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsTransform.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Settings/URP-Performant.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/RigidBodyMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/RigidBodyMovementSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +47,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/8e0b2f87b3754dd882b0cf4e0a948913.DynamicallyCreatedAssemblyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/8e0b2f87b3754dd882b0cf4e0a948913.SourceCodeCombined.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/53/3154bed1/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/d1/0a4cfee7/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Editor/ReadOnlyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -137,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/NewPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/Player/OldPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/GroundWalkingSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -248,7 +168,7 @@
       <workItem from="1712867477144" duration="1416000" />
       <workItem from="1712869401546" duration="3000" />
       <workItem from="1712871271608" duration="7986000" />
-      <workItem from="1712907963759" duration="7818000" />
+      <workItem from="1712907963759" duration="9058000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -282,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712786517354</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="physical movement">
+      <option name="closed" value="true" />
+      <created>1712920336088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712920336088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="code recompilation result">
+      <option name="closed" value="true" />
+      <created>1712920401711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712920401711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +262,8 @@
     <MESSAGE value="WalkingMovement components" />
     <MESSAGE value="Ground Detecting System" />
     <MESSAGE value="Code Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Cleanup" />
+    <MESSAGE value="physical movement" />
+    <MESSAGE value="code recompilation result" />
+    <option name="LAST_COMMIT_MESSAGE" value="code recompilation result" />
   </component>
 </project>
