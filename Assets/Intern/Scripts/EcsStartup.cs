@@ -20,15 +20,26 @@ namespace Client
             _fixedUpdateSystems = new EcsSystems(_world);
             _drawGizmosSystems = new EcsSystems(_world);
 
-            _updateSystems.ConvertScene().AddSystemsDebugInfo()
+            _updateSystems.ConvertScene()
+#if UNITY_EDITOR
+                .AddSystemsDebugInfo()
+#endif
+                .Add(new PlayerMovementInputSystem())
                 .Inject()
                 .Init();
+            
             _fixedUpdateSystems
                 .Add(new GroundDetectSystem())
+                .Add(new GroundWalkingSystem())
+                .Add(new RigidBodyMovementSystem())
                 .Inject()
                 .Init();
+            
             _drawGizmosSystems
                 .Add(new GroundDetectSystem.Visualizer())
+                .Add(new PlayerMovementInputSystem.Visualizer())
+                .Add(new GroundWalkingSystem.Visualizer())
+                .Add(new RigidBodyMovementSystem.Visualizer())
                 .Inject()
                 .Init();
         }
@@ -36,7 +47,7 @@ namespace Client
         private void Update() => UpdateSystems(_updateSystems);
 
         private void FixedUpdate() => UpdateSystems(_fixedUpdateSystems);
-        
+
         private void OnDrawGizmos() => UpdateSystems(_drawGizmosSystems);
 
         private void OnDestroy()
