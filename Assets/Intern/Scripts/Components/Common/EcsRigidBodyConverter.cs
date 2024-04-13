@@ -2,14 +2,14 @@
 using AB_Utility.FromSceneToEntityConverter;
 using UnityEngine;
 
-namespace Client.Components.Common
+namespace Client.Components
 {
     public class EcsRigidBodyConverter : ComponentConverter<EcsRigidBody>
     {
     }
 
     [Serializable]
-    public struct EcsRigidBody
+    public struct EcsRigidBody 
     {
         [field: SerializeField] public Rigidbody RigidBody { get; private set; }
     }

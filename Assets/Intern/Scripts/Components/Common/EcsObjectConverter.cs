@@ -2,7 +2,7 @@
 using AB_Utility.FromSceneToEntityConverter;
 using UnityEngine;
 
-namespace Client.Components.Common
+namespace Client.Components
 {
     public class EcsObjectConverter : ComponentConverter<EcsObject>
     {

@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 
-public class OldPlayerMovementInputReader : PlayerMovementInputReaderBase
+namespace Client.Mono
 {
-    public override Vector2 ReadInput()
+    public class OldPlayerMovementInputReader : PlayerMovementInputReaderBase
     {
-        return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
+        public override Vector2 ReadInput()
+        {
+            return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
+        }
     }
 }

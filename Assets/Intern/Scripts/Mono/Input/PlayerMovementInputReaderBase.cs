@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 
-[DisallowMultipleComponent]
-public abstract class PlayerMovementInputReaderBase : MonoBehaviour
+namespace Client.Mono
 {
-    public abstract Vector2 ReadInput();
+    [DisallowMultipleComponent]
+    public abstract class PlayerMovementInputReaderBase : MonoBehaviour
+    {
+        public abstract Vector2 ReadInput();
+    }
 }

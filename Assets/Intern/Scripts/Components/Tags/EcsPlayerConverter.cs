@@ -2,12 +2,12 @@
 
 namespace Client.Components
 {
-    public class EcsPlayer : ComponentConverter<PlayerTag>
+    public class EcsPlayerConverter : ComponentConverter<EcsPlayerTag>
     {
 
     }
     
-    public struct PlayerTag
+    public struct EcsPlayerTag
     {
     }
 }

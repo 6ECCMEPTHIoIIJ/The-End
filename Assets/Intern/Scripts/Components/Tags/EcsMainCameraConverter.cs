@@ -4,11 +4,11 @@ using UnityEngine;
 namespace Client.Components
 {
     [RequireComponent(typeof(Camera))]
-    public class EcsMainCamera : ComponentConverter<MainCameraTag>
+    public class EcsMainCameraConverter : ComponentConverter<EcsMainCameraTag>
     {
     }
     
-    public struct MainCameraTag
+    public struct EcsMainCameraTag
     {
     }
 }

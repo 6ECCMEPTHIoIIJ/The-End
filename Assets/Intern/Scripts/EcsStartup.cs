@@ -27,19 +27,16 @@ namespace Client
                 .Add(new PlayerMovementInputSystem())
                 .Inject()
                 .Init();
-            
+
             _fixedUpdateSystems
-                .Add(new GroundDetectSystem())
-                .Add(new GroundWalkingSystem())
-                .Add(new RigidBodyMovementSystem())
+                .Add(new MovementSystem())
                 .Inject()
                 .Init();
-            
+
             _drawGizmosSystems
-                .Add(new GroundDetectSystem.Visualizer())
+#if UNITY_EDITOR
                 .Add(new PlayerMovementInputSystem.Visualizer())
-                .Add(new GroundWalkingSystem.Visualizer())
-                .Add(new RigidBodyMovementSystem.Visualizer())
+#endif
                 .Inject()
                 .Init();
         }
@@ -52,10 +49,10 @@ namespace Client
 
         private void OnDestroy()
         {
-            DestroyWorld(ref _world);
             DestroySystems(ref _updateSystems);
             DestroySystems(ref _fixedUpdateSystems);
             DestroySystems(ref _drawGizmosSystems);
+            DestroyWorld(ref _world);
         }
 
         private static void UpdateSystems(IEcsSystems systems) => systems?.Run();

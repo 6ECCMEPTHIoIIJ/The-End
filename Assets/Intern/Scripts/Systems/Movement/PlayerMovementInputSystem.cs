@@ -9,30 +9,32 @@ namespace Client.Systems
         public void Run(IEcsSystems systems)
         {
             var world = systems.GetWorld();
-            var movablePlayersFilter = world
-                .Filter<TransformComponent>()
-                .Inc<PlayerMovementInputReaderComponent>()
-                .Inc<MovementInputComponent>()
-                .Inc<PlayerTag>()
-                .End();
-            var mainCameraFilter = world.Filter<TransformComponent>().Inc<MainCameraTag>().End();
-            var movementInputs = world.GetPool<MovementInputComponent>();
-            var inputReaders = world.GetPool<PlayerMovementInputReaderComponent>();
-            var transforms = world.GetPool<TransformComponent>();
 
-            foreach (var e in movablePlayersFilter)
+            var playerReadableInputFilter = world
+                .Filter<EcsTransform>()
+                .Inc<EcsMovementInput>()
+                .Inc<EcsPlayerMovementInputReader>()
+                .End();
+            var mainCameraFilter = world
+                .Filter<EcsTransform>()
+                .Inc<EcsMainCameraTag>()
+                .End();
+
+            var transforms = world.GetPool<EcsTransform>();
+            var movementInputs = world.GetPool<EcsMovementInput>();
+            var inputReaders = world.GetPool<EcsPlayerMovementInputReader>();
+
+            foreach (var i in playerReadableInputFilter)
             {
-                ref var playerMovementInputReader = ref inputReaders.Get(e);
-                ref var playerTransform = ref transforms.Get(e);
-                ref var movementInput = ref movementInputs.Get(e);
+                ref var transform = ref transforms.Get(i);
+                ref var playerMovementInputReader = ref inputReaders.Get(i);
+                ref var movementInput = ref movementInputs.Get(i);
                 foreach (var c in mainCameraFilter)
                 {
                     ref var mainCameraTransform = ref transforms.Get(c);
-                    var cameraRotation = mainCameraTransform.Rotation;
-                    var rawInput = playerMovementInputReader.Input;
-                    var playerUp = playerTransform.Up;
-                    movementInput.Input =
-                        Vector3.ProjectOnPlane(cameraRotation * new Vector3(rawInput.x, 0, rawInput.y), playerUp);
+                    movementInput.MovementDestination = transform.GetPosition() +
+                                                        playerMovementInputReader.GetInputRotatedToCamera(
+                                                            mainCameraTransform.GetRotation());
                 }
             }
         }
@@ -46,18 +48,16 @@ namespace Client.Systems
             {
                 var world = systems.GetWorld();
                 var movablePlayersFilter = world
-                    .Filter<TransformComponent>()
-                    .Inc<MovementInputComponent>()
-                    .Inc<PlayerTag>()
+                    .Filter<EcsMovementInput>()
+                    .Inc<EcsPlayerMovementInputReader>()
                     .End();
-                var movementInputs = world.GetPool<MovementInputComponent>();
-                var transforms = world.GetPool<TransformComponent>();
+                var movementInputs = world.GetPool<EcsMovementInput>();
 
                 foreach (var e in movablePlayersFilter)
                 {
-                    ref var playerTransform = ref transforms.Get(e);
                     ref var movementInput = ref movementInputs.Get(e);
-                    Debug.DrawRay(playerTransform.Position, movementInput.Input, Color.red);
+                    Gizmos.color = Color.red;
+                    Gizmos.DrawWireSphere(movementInput.MovementDestination, 0.3f);
                 }
             }
         }
