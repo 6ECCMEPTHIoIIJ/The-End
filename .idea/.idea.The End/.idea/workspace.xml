@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Added Common movement">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Replaced with navMeshAgent">
       <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/MovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/MovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/d1/0a4cfee7/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Editor/ReadOnlyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMovementInputConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Projects/GameProjects/Unity/The End/Assets/Intern/Scripts/EcsStartup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/NewPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/OldPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -177,7 +173,7 @@
       <workItem from="1712869401546" duration="3000" />
       <workItem from="1712871271608" duration="7986000" />
       <workItem from="1712907963759" duration="13074000" />
-      <workItem from="1713013463482" duration="20334000" />
+      <workItem from="1713013463482" duration="21922000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -283,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713037651838</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Replaced with navMeshAgent">
+      <option name="closed" value="true" />
+      <created>1713040345024</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713040345024</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +340,7 @@
     <MESSAGE value="Added Cinemachine to the scene" />
     <MESSAGE value="Added Common Components that represents Unity Components" />
     <MESSAGE value="Added Common movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Common movement" />
+    <MESSAGE value="Replaced with navMeshAgent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced with navMeshAgent" />
   </component>
 </project>

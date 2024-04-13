@@ -16,7 +16,7 @@ namespace Client.Components
         [field: SerializeField] public NavMeshAgent NavMeshAgent { get; private set; }
     }
     
-    public static class EcsNavMeshAgentHelper
+    public static class EcsMovementHelper
     {
         public static void SetDestination(in this EcsMovement ecsMovement, Vector3 destination) =>
             ecsMovement.NavMeshAgent.SetDestination(destination);
