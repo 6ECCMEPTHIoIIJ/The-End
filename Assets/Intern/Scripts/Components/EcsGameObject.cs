@@ -5,25 +5,15 @@ using UnityEngine;
 
 namespace Client.Components
 {
-    [RequireComponent(typeof(GameObject))]
-    public class EcsGameObject : BaseConverter
+    public class EcsGameObject : ComponentConverter<GameObjectComponent>
     {
-        public override void Convert(EcsPackedEntityWithWorld entityWithWorld)
-        {
-            if (entityWithWorld.Unpack(out var world, out var entity))
-            {
-                ref var component = ref world.GetPool<GameObjectComponent>().Add(entity);
-                component = new GameObjectComponent { Self = gameObject };
-            }
-        }
     }
 
     [Serializable]
-    public struct GameObjectComponent : IMonoComponent<GameObject>
+    public struct GameObjectComponent
     {
-        [field: Header("REFERENCES")]
+        [field: Header("DATA")]
         [field: SerializeField]
-        [field: ReadOnly]
         public GameObject Self { get; set; }
 
         public LayerMask Layer

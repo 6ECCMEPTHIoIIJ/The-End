@@ -5,17 +5,15 @@ using UnityEngine;
 
 namespace Client.Components
 {
-    [RequireComponent(typeof(Rigidbody))]
-    public class EcsRigidBody : MonoConverter<RigidBodyComponent, Rigidbody>
+    public class EcsRigidBody : ComponentConverter<RigidBodyComponent>
     {
     }
 
     [Serializable]
-    public struct RigidBodyComponent : IMonoComponent<Rigidbody>
+    public struct RigidBodyComponent
     {
-        [field: Header("REFERENCES")]
+        [field: Header("DATA")]
         [field: SerializeField]
-        [field: ReadOnly]
         public Rigidbody Self { private get; set; }
 
         public Vector3 Velocity

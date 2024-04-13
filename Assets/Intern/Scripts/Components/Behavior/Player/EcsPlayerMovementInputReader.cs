@@ -1,20 +1,18 @@
 ﻿using System;
+using AB_Utility.FromSceneToEntityConverter;
 using UnityEngine;
 
 namespace Client.Components
 {
-    [RequireComponent(typeof(PlayerMovementInputReaderBase))]
-    public class EcsPlayerMovementInputReader :
-        MonoConverter<PlayerMovementInputReaderComponent, PlayerMovementInputReaderBase>
+    public class EcsPlayerMovementInputReader : ComponentConverter<PlayerMovementInputReaderComponent>
     {
     }
 
     [Serializable]
-    public struct PlayerMovementInputReaderComponent : IMonoComponent<PlayerMovementInputReaderBase>
+    public struct PlayerMovementInputReaderComponent
     {
-        [field: Header("REFERENCES")]
+        [field: Header("DATA")]
         [field: SerializeField]
-        [field: ReadOnly]
         public PlayerMovementInputReaderBase Self { private get; set; }
 
         public Vector2 Input =>

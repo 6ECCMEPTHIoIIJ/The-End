@@ -5,18 +5,16 @@ using UnityEngine;
 
 namespace Client.Components
 {
-    [RequireComponent(typeof(Transform))]
-    public class EcsTransform : MonoConverter<TransformComponent, Transform>
+    public class EcsTransform : ComponentConverter<TransformComponent>
     {
     }
 
 
     [Serializable]
-    public struct TransformComponent : IMonoComponent<Transform>
+    public struct TransformComponent
     {
-        [field: Header("REFERENCES")]
+        [field: Header("DATA")]
         [field: SerializeField]
-        [field: ReadOnly]
         public Transform Self { private get; set; }
 
         public Vector3 Position
