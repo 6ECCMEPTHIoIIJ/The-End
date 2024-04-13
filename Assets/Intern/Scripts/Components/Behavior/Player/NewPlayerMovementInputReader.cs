@@ -20,6 +20,7 @@ namespace Client.Components
         private void Awake()
         {
             var playerInput = gameObject.AddComponent<PlayerInput>();
+            playerInput.notificationBehavior = PlayerNotifications.InvokeCSharpEvents;
             playerInput.actions = _inputActions;
             _action = playerInput.actions["Move"];
         }

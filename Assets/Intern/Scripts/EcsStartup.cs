@@ -52,10 +52,10 @@ namespace Client
 
         private void OnDestroy()
         {
+            DestroyWorld(ref _world);
             DestroySystems(ref _updateSystems);
             DestroySystems(ref _fixedUpdateSystems);
             DestroySystems(ref _drawGizmosSystems);
-            DestroyWorld(ref _world);
         }
 
         private static void UpdateSystems(IEcsSystems systems) => systems?.Run();
