@@ -35,7 +35,6 @@ namespace Client
 
             _drawGizmosSystems
 #if UNITY_EDITOR
-                .Add(new PlayerMovementInputSystem.Visualizer())
 #endif
                 .Inject()
                 .Init();

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Client.Systems
 {
-    public partial class PlayerMovementInputSystem : IEcsRunSystem
+    public class PlayerMovementInputSystem : IEcsRunSystem
     {
         public void Run(IEcsSystems systems)
         {
@@ -35,29 +35,6 @@ namespace Client.Systems
                     movementInput.MovementDestination = transform.GetPosition() +
                                                         playerMovementInputReader.GetInputRotatedToCamera(
                                                             mainCameraTransform.GetRotation());
-                }
-            }
-        }
-    }
-
-    public partial class PlayerMovementInputSystem
-    {
-        public class Visualizer : IEcsRunSystem
-        {
-            public void Run(IEcsSystems systems)
-            {
-                var world = systems.GetWorld();
-                var movablePlayersFilter = world
-                    .Filter<EcsMovementInput>()
-                    .Inc<EcsPlayerMovementInputReader>()
-                    .End();
-                var movementInputs = world.GetPool<EcsMovementInput>();
-
-                foreach (var e in movablePlayersFilter)
-                {
-                    ref var movementInput = ref movementInputs.Get(e);
-                    Gizmos.color = Color.red;
-                    Gizmos.DrawWireSphere(movementInput.MovementDestination, 0.3f);
                 }
             }
         }
