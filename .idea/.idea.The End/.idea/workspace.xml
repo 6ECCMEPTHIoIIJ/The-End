@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Created NavMesh&#10;Deleted MonoComponent -&gt; Replaced with default ComponentConverter">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/NewPlayerMovementInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/NewPlayerMovementInputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Reorder world destruction">
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/OldPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsRigidBody.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/Movement/EcsMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Assets/Intern/Scripts/EcsStartup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/GroundDetectSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/GroundWalkingSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.leopotam.ecslite@984856664a/src/worlds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/EntityView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/WorldView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -170,7 +171,7 @@
       <workItem from="1712869401546" duration="3000" />
       <workItem from="1712871271608" duration="7986000" />
       <workItem from="1712907963759" duration="13074000" />
-      <workItem from="1713013463482" duration="1121000" />
+      <workItem from="1713013463482" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -244,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713013828875</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reorder world destruction">
+      <option name="closed" value="true" />
+      <created>1713014645992</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713014645992</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +302,7 @@
     <MESSAGE value="velocity visualization" />
     <MESSAGE value="prepare for relocation" />
     <MESSAGE value="Created NavMesh&#10;Deleted MonoComponent -&gt; Replaced with default ComponentConverter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created NavMesh&#10;Deleted MonoComponent -&gt; Replaced with default ComponentConverter" />
+    <MESSAGE value="Reorder world destruction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorder world destruction" />
   </component>
 </project>
