@@ -1,6 +1,7 @@
 ﻿using System;
 using AB_Utility.FromSceneToEntityConverter;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Client.Components
 {
@@ -11,15 +12,15 @@ namespace Client.Components
     [Serializable]
     public struct PlayerMovementInputReaderComponent
     {
-        [field: Header("DATA")]
-        [field: SerializeField]
-        public PlayerMovementInputReaderBase Self { private get; set; }
+        // ReSharper disable once InconsistentNaming
+        [FormerlySerializedAs("self")] [Header("DATA")] [SerializeField]
+        private PlayerMovementInputReaderBase _self;
 
         public Vector2 Input =>
 #if UNITY_EDITOR
             _input =
 #endif
-                Self.ReadInput();
+                _self.ReadInput();
 
 #if UNITY_EDITOR
         [Header("DEBUG")] [SerializeField] [ReadOnly]

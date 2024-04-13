@@ -12,8 +12,8 @@ namespace Client.Components
     [Serializable]
     public struct GroundDetectComponent
     {
-        [field: Header("DATA")]
-        [field: SerializeField] public Transform Origin { private get; set; }
+        // ReSharper disable once InconsistentNaming
+        [FormerlySerializedAs("Origin")] [Header("DATA")] [SerializeField] private Transform _origin;
         [field: SerializeField] public float Radius { get; set; }
         [field: SerializeField] public LayerMask GroundLayer { get; set; }
 
@@ -25,7 +25,7 @@ namespace Client.Components
 #if UNITY_EDITOR
                     _originPosition =
 #endif
-                        Origin.position;
+                        _origin.position;
             }
         }
 

@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Reorder world destruction">
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Added Cinemachine to the scene">
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsObjectConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsObjectConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsRigidBodyConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsRigidBodyConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsTransformConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsTransformConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/EcsPlayerMovementInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/EcsPlayerMovementInputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/NewPlayerMovementInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/NewPlayerMovementInputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/NewPlayerMovementInputReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/NewPlayerMovementInputReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/OldPlayerMovementInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/OldPlayerMovementInputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/OldPlayerMovementInputReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/OldPlayerMovementInputReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/PlayerMovementInputReaderBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/PlayerMovementInputReaderBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behavior/Player/PlayerMovementInputReaderBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/PlayerMovementInputReaderBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsGroundDetect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Physics/EcsGroundDetect.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +89,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.leopotam.ecslite@984856664a/src/worlds.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/EntityView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/WorldView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Projects/GameProjects/Unity/The End/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -171,7 +188,7 @@
       <workItem from="1712869401546" duration="3000" />
       <workItem from="1712871271608" duration="7986000" />
       <workItem from="1712907963759" duration="13074000" />
-      <workItem from="1713013463482" duration="3155000" />
+      <workItem from="1713013463482" duration="5601000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -253,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713014645992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Cinemachine to the scene">
+      <option name="closed" value="true" />
+      <created>1713018752821</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713018752821</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +328,7 @@
     <MESSAGE value="prepare for relocation" />
     <MESSAGE value="Created NavMesh&#10;Deleted MonoComponent -&gt; Replaced with default ComponentConverter" />
     <MESSAGE value="Reorder world destruction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorder world destruction" />
+    <MESSAGE value="Added Cinemachine to the scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Cinemachine to the scene" />
   </component>
 </project>
