@@ -4,8 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="Replaced with navMeshAgent">
-      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" afterDir="false" />
+    <list default="true" id="45f7aa09-86b7-48f5-8ba0-b292d56989f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InputSystem.inputsettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behaviour.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behaviour/Player/EcsPlayerInputConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behaviour/Player/EcsPlayerInputConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsActionInputConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsActionInputConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsLookInputConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsLookInputConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsNavigableConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsRotatableConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsRotatableConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsPlayerTagConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsPlayerTagConverter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base/ActionPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base/ActionPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base/LookPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base/LookPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base/MovePlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Base/MovePlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/New.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldActionPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldActionPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldLookPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldLookPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldMoveByArrowsPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldMoveByArrowsPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldMoveByCursorPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/Old/OldMoveByCursorPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/PlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour/Player/PlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Master.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Master.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Movement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Movement/RotatableAgent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Movement/RotatableAgent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Slaves.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Slaves.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Behaviour.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Behaviour/EcsPlayerInputSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Behaviour/EcsPlayerInputSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/EcsNavigationSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/EcsNavigationSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/EcsRotationSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/EcsRotationSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.The End/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scenes/SampleScene/NavMesh-Env.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scenes/SampleScene/NavMesh-Env.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsObjectConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsObjectConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsRigidBodyConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsRigidBodyConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsTransformConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Common/EcsTransformConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMovementInputConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMoveInputConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMovementInputConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMoveInputConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Behaviour/Player.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/Player/EcsPlayerMovementInputReaderConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/Player/EcsPlayerMovementInputReaderConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Movement/EcsNavigableConverter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsGroundWalkingConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsGroundWalkingConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsMainCameraConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsMainCameraConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsPlayerConverter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Components/Tags/EcsPlayerConverter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/EcsStartup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Behaviour.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/NewPlayerMovementInputReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/NewPlayerMovementInputReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/OldPlayerMovementInputReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/OldPlayerMovementInputReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/PlayerMovementInputReaderBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/PlayerMovementInputReaderBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/MovementSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/MovementSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +138,14 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bf02bcb9cd0647839aeaae3d8684aec6d400/04/589f08c9/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bf02bcb9cd0647839aeaae3d8684aec6d400/2d/c276c16a/NavMesh.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bf02bcb9cd0647839aeaae3d8684aec6d400/f5/28eb95c4/NavMeshQueryFilter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/53/3154bed1/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/86/1f29378f/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/d1/0a4cfee7/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Intern/Editor/ReadOnlyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMovementInputConverter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Assets/Intern/Scripts/Components/Movement/EcsMovementConverter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Assets/Intern/Scripts/EcsStartup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/NewPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Mono/Input/OldPlayerMovementInputReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/EcsSystemEx.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/MovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Systems/Movement/PlayerMovementInputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Intern/Scripts/Components/Input/EcsMoveInputConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/BaseConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/ComponentConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.anbi.leoecslite.entityconverter@99f0afcfbd/src/ComponentsContainer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -74,8 +159,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/EcsWorldDebugSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/EntityView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.mitfart.leoecslite.unity-integration@eb89f798bf/Runtime/View/WorldView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/GameProjects/Unity/The End/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -95,6 +179,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -142,10 +227,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20000">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20000" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -173,7 +258,12 @@
       <workItem from="1712869401546" duration="3000" />
       <workItem from="1712871271608" duration="7986000" />
       <workItem from="1712907963759" duration="13074000" />
-      <workItem from="1713013463482" duration="21922000" />
+      <workItem from="1713013463482" duration="21993000" />
+      <workItem from="1713084939086" duration="14656000" />
+      <workItem from="1713192209649" duration="2735000" />
+      <workItem from="1713196513921" duration="14779000" />
+      <workItem from="1713268345277" duration="1145000" />
+      <workItem from="1713271174862" duration="17302000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -287,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713040345024</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fix MovementHelper name">
+      <option name="closed" value="true" />
+      <created>1713040379153</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713040379153</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +423,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value=".gitignore change" />
@@ -341,6 +440,7 @@
     <MESSAGE value="Added Common Components that represents Unity Components" />
     <MESSAGE value="Added Common movement" />
     <MESSAGE value="Replaced with navMeshAgent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replaced with navMeshAgent" />
+    <MESSAGE value="Fix MovementHelper name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix MovementHelper name" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using AB_Utility.FromSceneToEntityConverter;
 using Client.Systems;
 using Leopotam.EcsLite;
@@ -21,20 +22,19 @@ namespace Client
             _drawGizmosSystems = new EcsSystems(_world);
 
             _updateSystems.ConvertScene()
-#if UNITY_EDITOR
-                .AddSystemsDebugInfo()
-#endif
-                .Add(new PlayerMovementInputSystem())
+                .Add(new EcsPlayerInputSystem())
                 .Inject()
                 .Init();
 
             _fixedUpdateSystems
-                .Add(new MovementSystem())
+                .Add(new EcsNavigationSystem())
+                .Add(new EcsRotationSystem())
                 .Inject()
                 .Init();
 
             _drawGizmosSystems
 #if UNITY_EDITOR
+                .AddSystemsDebugInfo()
 #endif
                 .Inject()
                 .Init();
@@ -48,9 +48,9 @@ namespace Client
 
         private void OnDestroy()
         {
-            DestroySystems(ref _updateSystems);
-            DestroySystems(ref _fixedUpdateSystems);
             DestroySystems(ref _drawGizmosSystems);
+            DestroySystems(ref _fixedUpdateSystems);
+            DestroySystems(ref _updateSystems);
             DestroyWorld(ref _world);
         }
 
@@ -66,6 +66,17 @@ namespace Client
         {
             systems?.Destroy();
             systems = null;
+        }
+    }
+
+    public static class EcsSystemEx
+    {
+        public static IEcsSystems AddSystemsDebugInfo([NotNull] this IEcsSystems systems)
+        {
+#if UNITY_EDITOR
+            systems.Add(new Leopotam.EcsLite.UnityEditor.EcsWorldDebugSystem());
+#endif
+            return systems;
         }
     }
 }
